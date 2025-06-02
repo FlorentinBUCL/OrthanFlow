@@ -1,0 +1,30 @@
+# ---- Python / Flask ----
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+instance/
+*.sqlite3
+
+# ---- Vue.js / Frontend ----
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+
+# ---- IDE / Système ----
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# ---- OS temp files ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini

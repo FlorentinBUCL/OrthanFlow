@@ -1,0 +1,205 @@
+/* =======================
+   Buttons
+======================= */
+.button-blue {
+    background-color: #1976d2;
+    color: white;
+    font-weight: 500;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 16px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .button-blue:hover {
+    background-color: #1565c0;
+  }
+  
+  .button-green {
+    background-color: #28a745;
+    color: white;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 2px;
+  }
+
+  .button-green:hover {
+    background-color: #218838;
+  }
+  
+  .button-red {
+    background-color: #cc0a30;
+    color: white;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+  }
+
+  .button-red:hover {
+    background-color: #64070d;
+  }
+
+  
+  .button-toggle {
+    width: 120px;
+    padding: 10px 0;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: #e0e0e0;
+    color: #333;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .button-toggle:hover {
+    background-color: #d5d5d5;
+  }
+  
+  .button-toggle.active {
+    background-color: #1976d2;
+    color: white;
+  }
+
+  .button-toggle.active:hover {
+    background-color: #1565c0;
+  }
+  
+  /* =======================
+     General layout
+  ======================= */
+  
+  .study-list {
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    max-width: 95%;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-center {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+  }
+  
+  .study-table,
+  .series-list {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .study-table th,
+  .study-table td,
+  .series-list th,
+  .series-list td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+  }
+  
+  .study-table tbody tr:hover,
+  .series-list tbody tr:hover {
+    background-color: #e3f2fd;
+    cursor: pointer;
+  }
+  
+  .series-list th {
+    background-color: #e3f2fd;
+  }
+  
+  .viewer-selection,
+  .viewer-container {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .viewer-options {
+    margin-bottom: 16px;
+  }
+  
+  .viewer-options label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .series-container {
+    background-color: #f0f4f8;
+    padding: 12px;
+    border-radius: 4px;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.app-header {
+    background-color: #1976d2;
+    color: white;
+    padding: 4px 4px;
+     font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin-bottom: 15px;
+}
+
+/* =======================
+     Style for Student Component
+  ======================= */
+  
+.iframe {
+  width: 100%;
+  height: 800px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.description-container {
+width: 100%;
+max-width: 100vw;
+box-sizing: border-box;
+padding: 1rem;
+margin-bottom: 1.5rem;
+background: #f9f9f9;
+border-radius: 8px;
+white-space: normal;
+overflow-wrap: break-word;
+word-break: break-word;
+}
+.error {
+  color: red;
+  margin-top: 20px;
+}
