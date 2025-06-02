@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ## To install the frontend 
 ``` bash
-cd ../frontend
+cd frontend/frontv2
 npm install
 ```
 
